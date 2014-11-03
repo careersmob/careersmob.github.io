@@ -153,15 +153,16 @@
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading wow fadeInDown">Sign up today for a mock interview with a skilled interviewer.</h2>
                     <h3 class="section-subheading text-muted wow fadeInLeft">Due to too many sign ups, we cannot afford to take any more people right now. Sorry! We will open it again in the near future to accommodate more people.</h3>
-                    <a class="page-scroll btn btn-xl-inactive wow fadeInUp">Sign up Today</a>
+                    <a class="page-scroll btn btn-xl-inactive wow fadeInUp" id="sign-up-button">Sign up Today</a>
                 </div>
             </div>
         </div>
 
     </section>
-
     <footer>
+
         <div class="container">
+            
             <div class="row">
                 <div class="col-md-4">
                     <span class="copyright"></span>
@@ -169,9 +170,9 @@
                 
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
-                        <li id="twitter"><a href="https://twitter.com/CareersMob" target="_blank"><i class="fa fa-twitter" target="_blank"></i></a>
+                        <li id="twitter"><a href="http://twitter.com/CareersMob" target="http://twitter.com/CareersMob"><i class="fa fa-twitter"></i></a>
                         </li>
-                        <li id="facebook"><a href="https://www.facebook.com/pages/CareersMob/363949287106302" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <li id="facebook"><a href="http://www.facebook.com/pages/CareersMob/363949287106302" target="http://twitter.com/CareersMob"><i class="fa fa-facebook"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -208,7 +209,7 @@
     <script src="js/wow.min.js"></script>
     <script>
     new WOW().init();
-    $('a').click(function(event){
+    $('#sign-up-button').click(function(event){
         event.preventDefault();
     });
     </script>
