@@ -123,6 +123,29 @@ fieldset[disabled] .btn-primary.active {
     background-color: #1bb580 ;
 }
 
+
+.btn-xl-inactive {
+    padding: 20px 40px;
+    border-color: gray;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: gray ;
+}
+.btn-xl-inactive:hover,
+.btn-xl-inactive:focus,
+.btn-xl-inactive:active,
+.btn-xl-inactive.active,
+.open .dropdown-toggle.btn-xl-inactive { 
+    border-color: gray;
+    color: #fff;
+    background-color: gray;
+}
+
+
 .btn-xl:hover,
 .btn-xl:focus,
 .btn-xl:active,
@@ -161,6 +184,22 @@ fieldset[disabled] .btn-xl.active {
 .btn-xl .badge {
     color: #1bb580;
     background-color: #fff;
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    border-color: #189f70;
+    color: #fff;
+    background-color: #189f70;
+}
+
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    background-image: none;
 }
 
 .navbar-default {
